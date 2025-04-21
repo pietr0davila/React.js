@@ -1,0 +1,15 @@
+Módulos em javascript são vários componentes, enquanto componentes são pequenas peças de código. A função deles é que o usuário possa usar arquivos menores e importa-los e exportá-los para criação de aplicações personalizáveis. 
+
+Exportação padrão:
+`export default`. Um arquivo só pode ter 1 export default, o export default deve ser usado quando o nome do arquivo é igual ao nome da função exportada. A parte principal do código tende a ter export default
+[Exportação Padrão de arquivos js](script/ExportDefault.js)
+
+Exportação nomeada:
+`export`. Um arquivo pode ter n exports e pode ter um export default
+[Exportação nomeada de arquivos js](script/Export.js)
+
+Importações:
+Depois de exportar um pedaço de um arquivo, você pode importar isso em outro arquivo
+A sintaxe exata depende de como o módulo foi exportado
+
+Caso seja uma importações nomeada, {} precisam envolver a/as importações

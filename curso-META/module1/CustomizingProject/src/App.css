@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/* Nav Section */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100vw;
+  height: 10vh;
+  background-color: #333;
+}
+.nav-bar h1 {
+  color: azure;
+  font-size: 30px;
+  margin: 10px;
+  text-wrap: nowrap;
+}
+.nav-bar ol {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.nav-bar ol li {
+  padding-right: 25px;
+}
+/*Introduction*/
+.intro {
+  flex: 1;
+  color: black;
+  height: 25vh;
+}
+.intro h1 {
+  text-align: center;
+  margin: 15px 0 15px 0;
+}
+.intro p {
+  text-align: justify;
+  margin: 25px;
+}
+.intro .CTA {
+  font-size: 25px;
+  font-weight: bolder;
+  width: 100%;
+  text-align: center;
+}
+/*Posts*/
+.posts-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.posts {
+  margin: 30px;
+  width: 35%;
+  height: 30vh;
+}
+/*Footer*/
+
+footer {
+  width: 100vw;
+  height: 35vh;
+}
+footer ol {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  list-style-type: none;
+}
+footer ol li {
+  margin: 25px;
+  color: blue;
+}
+footer h6 {
+  text-align: center;
+}

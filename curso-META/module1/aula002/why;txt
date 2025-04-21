@@ -1,0 +1,11 @@
+React é uma biblioteca javascript front-end baseada em componentes usada para criação de interfaces gráficas, componentes são pedaços de código isolados e uma aplicação react é um conjunto de componentes
+React usa uma abordagem usando JSX, que é Js + xml, que permite a criação de código react .jsx com HTML e JS no mesmo código
+react foi desenvolvido pelo time da meta (facebook) para "re-criar" o aplicativo do facebook, já que a alta demanda causou cada vez mais problemas de desenvolvimento e manutenção 
+
+Normalmente páginas web usam um modelo onde cada página solicitada é carregada quando necessário.
+
+React é uma biblioteca SPA (Single Page application), ou seja, apenas uma página é carregada e as outras são adaptações dessa mesma página, com a mudança nos componentes utilizados
+
+React usa uma arquitetura baseada em componentes reutilizáveis
+
+React usa o conceito de virtual DOM, que é uma página DOM da aplicação alocada na memória, quando alguma mudança é feita no código, o virtual DOM (Que é alterado automaticamente) é usado para alterar o DOM do navegador

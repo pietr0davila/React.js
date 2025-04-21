@@ -1,0 +1,5 @@
+Area de:
+1. Navegação
+2. Promoção
+3. Lista de posts recentes (intro)
+4. footer

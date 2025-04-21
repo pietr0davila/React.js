@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("C:/Windows/Fonts/JetBrains Mono");
+}
+* {
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "JetBrains Mono", arial;
+} 
+body {
+  background-color: whitesmoke;
+  color: #333;
+  display: flex;
+  justify-content: auto;
+  min-height: 100%;
+}
